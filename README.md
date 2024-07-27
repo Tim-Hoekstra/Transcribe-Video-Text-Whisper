@@ -8,7 +8,10 @@ This program performs the following tasks:
 4. **Translates Audio Chunks**: Uses the Whisper model to transcribe each audio chunk.
 5. **Combines Transcriptions**: Merges the transcriptions from all chunks into a single text file.
 
-The program is designed to handle the transcription of audio extracted from video files, ensuring that each segment adheres to the Whisper model's requirements for chunk length.
-**Requirements**:
+The program is designed to handle the transcription of audio extracted from video files, ensuring that each segment adheres to the Whisper model's requirements for chunk length.  
+
+**Requirements**:    
+```
 !pip install git+https://github.com/openai/whisper.git
 !apt-get install ffmpeg
+```
